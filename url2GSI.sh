@@ -8,12 +8,12 @@ AB=true
 AONLY=true
 MOUNTED=false
 NOVNDK=false
-CLEAN=false
+CLEAN=true
 DYNAMIC=false
 LOCK="$PROJECT_DIR/cache/.lock"
 DL="${PROJECT_DIR}/scripts/downloaders/dl.sh"
 
-echo "-> Warning: This fork came through VeloshGSIs, originally ErfanGSIs."
+echo "-> Warning: This tool is a fork originally from TrebleExp's from ErfanGSIs"
 echo " - You can edit the tool but read the NOTICE/LICENSE!"
 
 if [ $(uname) == Darwin ]; then
@@ -218,3 +218,5 @@ UMOUNT "$PROJECT_DIR/working/vendor" > /dev/null 2>&1
 rm -rf "$PROJECT_DIR/working"
 
 echo "-> Porting ${SRCTYPENAME} GSI done on: $PROJECT_DIR/output"
+
+LEAVE
