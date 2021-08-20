@@ -232,7 +232,7 @@ if [ "$outputtype" == "Aonly" ]; then
 fi
 
 # Init out overlay
-outputname="$romtypename-$outputtype-$sourcever-$date-p2109GSI"
+outputname="-$outputtype-$sourcever-$date-p2109GSI"
 outputimagename="$outputname".img
 outputtextname="$outputname".txt
 outputvendoroverlaysname="$romtypename-$sourcever-$date-VendorOverlays.tar.gz"
