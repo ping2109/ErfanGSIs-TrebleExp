@@ -7,14 +7,10 @@ rm -rf $1/app/cit
 rm -rf $1/app/MiuiCompass
 rm -rf $1/app/MiuiVideoGlobal
 rm -rf $1/app/PaymentService
-rm -rf $1/app/Calculator
 rm -rf $1/priv-app/Backup
 rm -rf $1/priv-app/Browser
-rm -rf $1/priv-app/Calendar
 rm -rf $1/priv-app/MiuiScanner
 rm -rf $1/priv-app/Velvet
-rm -rf $1/priv-app/Weather
-rm -rf $1/priv-app/WeatherProvider
 rm -rf $1/app/VoiceAssist
 rm -rf $1/app/MiRadio
 rm -rf $1/app/Mipay
@@ -45,7 +41,6 @@ rm -rf $1/data-app/XMRemoteController
 rm -rf $1/data-app/com.moji.mjweather
 rm -rf $1/data-app/MiGalleryLockscreen
 rm -rf $1/data-app/com.xunmeng.pinduoduo
-rm -rf $1/data-app/Weather
 rm -rf $1/data-app/CleanMaster
 rm -rf $1/data-app/MiLiveAssistant
 rm -rf $1/data-app/MiuiDriveMode
@@ -68,8 +63,6 @@ rm -rf $1/app/InMipay
 rm -rf $1/app/MSA-Global
 rm -rf $1/app/Maps
 rm -rf $1/app/MiPicks
-rm -rf $1/app/MiuiAudioMonitor
-rm -rf $1/app/MiuiVideoPlayer
 rm -rf $1/app/Music2
 rm -rf $1/app/Photos
 rm -rf $1/app/TranslationService
@@ -105,7 +98,6 @@ rm -rf $1/product/app/talkback
 rm -rf $1/priv-app/MiShare
 rm -rf $1/priv-app/Tag
 rm -rf $1/priv-app/MiuiMusicGlobal
-rm -rf $1/priv-app/MiCalendarGlobal
 rm -rf $1/priv-app/MiBrowserGlobal
 rm -rf $1/app/CatchLog
 rm -rf $1/app/Joyose
