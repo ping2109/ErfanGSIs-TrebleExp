@@ -4,6 +4,7 @@ systempath=$1
 thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 
 rm -rf $1/app/cit
+rm -rf $1/app/Email
 rm -rf $1/app/MiuiCompass
 rm -rf $1/app/MiuiVideoGlobal
 rm -rf $1/app/PaymentService
