@@ -77,7 +77,6 @@ rm -rf $1/priv-app/GlobalUserGuide
 rm -rf $1/priv-app/MiDrop
 rm -rf $1/priv-app/MiuiBrowserGlobal
 rm -rf $1/priv-app/PersonalAssistantGlobal
-rm -rf $1/priv-app/SoundRecorder
 rm -rf $1/priv-app/Turbo
 rm -rf $1/priv-app/YellowPage
 rm -rf $1/priv-app/facebook-installer
