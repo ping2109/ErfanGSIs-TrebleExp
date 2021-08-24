@@ -16,8 +16,6 @@ rsync -ra $thispath/system/ $systempath
 rm -rf $1/priv-app/DiracAudioControlService
 # drop FingerprintExtensionService
 rm -rf $1/app/FingerprintExtensionService
-# drop nfc
-rm -rf $1/app/NQNfcNci
 
 cat $thispath/rw-system.add.sh >> $1/bin/rw-system.sh
 
