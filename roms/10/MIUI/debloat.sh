@@ -6,7 +6,6 @@ thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 rm -rf $1/app/cit
 rm -rf $1/app/Email
 rm -rf $1/app/MiuiCompass
-rm -rf $1/app/MiuiVideoGlobal
 rm -rf $1/app/PaymentService
 rm -rf $1/priv-app/Backup
 rm -rf $1/priv-app/Browser
@@ -18,7 +17,6 @@ rm -rf $1/app/Mipay
 rm -rf $1/app/NexyPay
 rm -rf $1/app/com.miui.qr
 rm -rf $1/app/MiuiBugReport
-rm -rf $1/priv-app/MiuiVideo
 rm -rf $1/priv-app/PersonalAssistant
 rm -rf $1/priv-app/MiService
 rm -rf $1/priv-app/Music
@@ -40,7 +38,6 @@ rm -rf $1/data-app/Youpin
 rm -rf $1/data-app/com.baidu.haokan
 rm -rf $1/data-app/XMRemoteController
 rm -rf $1/data-app/com.moji.mjweather
-rm -rf $1/data-app/MiGalleryLockscreen
 rm -rf $1/data-app/com.xunmeng.pinduoduo
 rm -rf $1/data-app/CleanMaster
 rm -rf $1/data-app/MiLiveAssistant
