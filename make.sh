@@ -152,12 +152,6 @@ if [[ ! -d "$romsdir/$sourcever/$romtype" ]]; then
     exit 1
 fi
 
-# Detect arch
-if [[ ! -f "$systemdir/system/lib64/libandroid.so" ]]; then
-    echo "-> 32bit Source Detected! Cannot build due missing armeabi-v7a libs."
-    exit 1
-fi
-
 # Init date var first
 date=`date +%Y%m%d`
 
