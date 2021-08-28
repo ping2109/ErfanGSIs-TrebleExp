@@ -18,6 +18,8 @@ echo "persist.vendor.sys.fp.fod.location.X_Y=445,1260" >> $1/build.prop
 echo "persist.vendor.sys.fp.fod.size.width_height=190,190" >> $1/build.prop
 echo "DEVICE_PROVISIONED=1" >> $1/build.prop
 
+# drop caf permissions
+rm -rf $1/etc/permissions/qti_permissions.xml
 # drop dirac
 rm -rf $1/priv-app/DiracAudioControlService
 # remove phh qtiaudio
