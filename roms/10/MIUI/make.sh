@@ -20,6 +20,8 @@ echo "DEVICE_PROVISIONED=1" >> $1/build.prop
 
 # drop dirac
 rm -rf $1/priv-app/DiracAudioControlService
+# remove phh qtiaudio
+rm -rf $1/priv-app/QtiAudio
 # drop FingerprintExtensionService
 rm -rf $1/app/FingerprintExtensionService
 
