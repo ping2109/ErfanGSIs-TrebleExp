@@ -11,12 +11,10 @@ rm -rf $1/product/app/YouTubeMusicPrebuilt
 rm -rf $1/product/app/PrebuiltGmail
 rm -rf $1/product/app/VZWAPNLib
 rm -rf $1/product/app/PrebuiltBugle
-rm -rf $1/product/app/GoogleCamera
+rm -rf $1/product/priv-app/GoogleCamera
 rm -rf $1/product/app/Maps
 rm -rf $1/product/app/Drive
 rm -rf $1/product/app/DiagnosticsToolPrebuilt
-rm -rf $1/product/app/Chrome
-rm -rf $1/product/app/CalendarGooglePrebuilt
 rm -rf $1/product/app/NgaResources
 rm -rf $1/product/priv-app/BetaFeedback
 rm -rf $1/product/priv-app/DevicePersonalizationPrebuiltPixel2020
@@ -75,3 +73,6 @@ rm -rf $1/product/priv-app/WellbeingPrebuilt
 rm -rf $1/product/app/Music2
 rm -rf $1/product/app/Photos
 rm -rf $1/product/app/Videos
+rm -rf $1/product/app/Tycho
+rm -rf $1/product/app/MobileFeliCaMenuMainApp
+rm -rf $1/product/app/DMAgent
