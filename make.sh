@@ -152,6 +152,12 @@ if [[ ! -d "$romsdir/$sourcever/$romtype" ]]; then
     exit 1
 fi
 
+# Detect arch
+if [[ ! -f "$systemdir/system/lib64/libandroid.so" ]]; then
+    echo "-> 32bit source detected"
+    . notify/arm32.sh
+fi
+
 # Init date var first
 date=`date +%Y%m%d`
 
