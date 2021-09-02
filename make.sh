@@ -155,8 +155,6 @@ fi
 # Detect arch
 if [[ ! -f "$systemdir/system/lib64/libandroid.so" ]]; then
     echo "-> 32bit source detected"
-    cd ../..
-    . notify/arm32.sh
 fi
 
 # Init date var first
