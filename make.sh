@@ -24,7 +24,7 @@ LOCALDIR=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 sourcepath=$1
 romtype=$2
 outputtype=$3
-novndk=false
+novndk=true
 
 if [ "$5" == "" ]; then
     echo "-> Create out dir"
