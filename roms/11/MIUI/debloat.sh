@@ -42,11 +42,9 @@ rm -rf $1/app/mi_connect_service
 rm -rf $1/app/CtsShimPrebuilt
 rm -rf $1/app/FM
 rm -rf $1/app/FileExplorer_old
-rm -rf $1/app/Notes
 rm -rf $1/app/Netflix_activation
 rm -rf $1/app/IdMipay
 rm -rf $1/app/IFAAService
-rm -rf $1/app/Notes
 rm -rf $1/app/XiaomiSimActivateService
 rm -rf $1/app/KeyChain
 rm -rf $1/app/OTrPBroker
@@ -68,7 +66,6 @@ rm -rf $1/app/Protips
 rm -rf $1/app/SecureElement
 rm -rf $1/app/XMSFKeeper
 rm -rf $1/app/CompanionDeviceManager
-rm -rf $1/app/Health
 rm -rf $1/app/AiAsstVision
 rm -rf $1/app/TSMClient
 rm -rf $1/app/XMCloudEngine
@@ -116,7 +113,6 @@ rm -rf $1/priv-app/QuickSearchBox
 rm -rf $1/priv-app/MiRecycle
 rm -rf $1/priv-app/CleanMaster
 rm -rf $1/priv-app/FusedLocation
-rm -rf $1/priv-app/MiuiAod
 rm -rf $1/priv-app/MiGameCenterSDKService
 rm -rf $1/priv-app/MiRcs
 rm -rf $1/priv-app/NewHome
@@ -169,7 +165,6 @@ rm -rf $1/product/app/talkback
 rm -rf $1/product/app/ModuleMetadataGoogle
 rm -rf $1/product/app/uceShimService
 rm -rf $1/product/app/CalendarGoogle
-rm -rf $1/product/app/Chrome
 rm -rf $1/product/app/ModuleMetadataGooglePrebuilt
 rm -rf $1/product/app/GoogleOne
 rm -rf $1/product/priv-app/Velvet
