@@ -12,9 +12,6 @@ rm -rf $1/priv-app/FindDevice
 # Copy system files
 rsync -ra $thispath/system/ $systempath
 
-#idk what im doing with my life
-echo "ro.oem_unlock_supported=1" >> $1/build.prop
-
 #fix systemui crash because of FOD
 echo "ro.hardware.fp.fod=true" >> $1/build.prop
 echo "persist.vendor.sys.fp.fod.location.X_Y=445,1260" >> $1/build.prop
