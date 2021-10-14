@@ -108,6 +108,7 @@ rm -rf $1/app/Netflix_activation
 rm -rf $1/app/IdMipay
 rm -rf $1/app/AnalyticsCore
 rm -rf $1/priv-app/GoogleDocumentsUIPrebuilt
+rm -rf $1/priv-app/MiuiCamera
 rm -rf $1/data-app/MiCreditInStub
 rm -rf $1/product/app/CalendarGoogle
 rm -rf $1/product/app/GoogleContacts
