@@ -116,6 +116,8 @@ rm -rf $1/priv-app/FusedLocation
 rm -rf $1/priv-app/MiGameCenterSDKService
 rm -rf $1/priv-app/MiRcs
 rm -rf $1/priv-app/NewHome
+rm -rf $1/priv-app/MiuiCamera
+rm -rf $1/priv-app/Notes
 
 # Nuke MIUI useless data-app apks
 rm -rf $1/data-app/MiRadio
@@ -176,3 +178,4 @@ rm -rf $1/product/priv-app/HotwordEnrollmentXGoogleHEXAGON
 rm -rf $1/product/priv-app/GoogleAssistant
 rm -rf $1/product/priv-app/GoogleFeedback
 rm -rf $1/product/priv-app/QAS_DVC_MSP
+rm -rf $1/product/app/Chrome
